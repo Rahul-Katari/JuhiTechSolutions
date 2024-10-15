@@ -225,7 +225,7 @@ const FooterFive = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
+                <p>© Juhi Tech Solutions 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
                 <Link href="#">Trams &amp; Condition</Link>

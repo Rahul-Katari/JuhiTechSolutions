@@ -206,7 +206,7 @@ const FooterSix = () => {
                 </ul>
               </div>
               <div className="col-lg-4  align-self-center text-lg-end">
-                <p className="mb-0">© AglieTech 2024 | All Rights Reserved</p>
+                <p className="mb-0">© Juhi Tech Solutions 2024 | All Rights Reserved</p>
               </div>
             </div>
           </div>

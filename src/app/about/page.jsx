@@ -13,7 +13,7 @@ import WorkProcessOne from "@/components/WorkProcessOne";
 
 
 export const metadata = {
-  title: "About || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: "About || Juhi Tech Solutions - IT Solutions & Technology NEXT JS Template",
   description:
     "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
 };

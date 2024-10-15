@@ -1,6 +1,7 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 import {
+  FaAddressBook,
   FaArrowRight,
   FaCalendarAlt,
   FaEnvelope,
@@ -9,7 +10,7 @@ import {
   FaPhoneAlt,
   FaTwitter,
   FaYoutube,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const FooterOne = () => {
   return (
@@ -40,18 +41,32 @@ const FooterOne = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_about">
-                <div className="thumb">
+                {/* <div className="thumb">
                   <img src="assets/img/logo2.png" alt="img" />
-                </div>
+                </div> */}
                 <div className="details">
-                  <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
-                  </p>
-                  <p className="mt-3">
-                    <FaPhoneAlt /> (+888) 123 456 765
+                  <div className="mb-4">
+                    <h3 className="text-white mb-0">Juhi Tech</h3>
+                    <p className="fs-3 lh-1 text-secondary"> Solutions</p>
+                  </div>
+                  <p className="mt-2">
+                      <FaAddressBook />
+                    <span>
+                      {" "}
+                      Villa No. 27, Sri Kasani Krishnaenclave, Bachupally,
+                      Hyderabad, 500090.
+                    </span>
                   </p>
                   <p className="mt-2">
-                    <FaEnvelope /> (+888) 123 456 765
+                    <a className="" href="tel:8978733299">
+                      <FaPhoneAlt /> +91&nbsp;&nbsp;8978733299
+                    </a>
+                  </p>
+                  <p className="mt-2">
+                    <a href="mailto:hr@juhitechsolutions.com">
+                      <FaEnvelope />
+                      hr@juhitechsolutions.com
+                    </a>
                   </p>
                   <ul className="social-media">
                     <li>
@@ -94,7 +109,7 @@ const FooterOne = () => {
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Digital marketing{' '}
+                      <FaArrowRight /> Digital marketing{" "}
                     </Link>
                   </li>
                   <li>
@@ -131,7 +146,7 @@ const FooterOne = () => {
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Finance Sector{' '}
+                      <FaArrowRight /> Finance Sector{" "}
                     </Link>
                   </li>
                   <li>
@@ -201,7 +216,7 @@ const FooterOne = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
+                <p>© Juhi Tech Solutions 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
                 <Link href="#">Trams &amp; Condition</Link>

@@ -322,15 +322,15 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <div className="nav-right-part nav-right-part-desktop align-self-center">
-            <a className="navbar-phone" href="tel:">
+          {/* <div className="nav-right-part nav-right-part-desktop align-self-center">
+            <a className="navbar-phone" href="tel:8978733299">
               <span className="icon">
                 <img src="assets/img/icon/1.png" alt="img" />
               </span>
               <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
+              <h5>8978733299</h5>
             </a>
-          </div>
+          </div> */}
         </div>
       </nav>
       {/* navbar end */}
