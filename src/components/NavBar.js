@@ -85,7 +85,7 @@ const NavBar = () => {
           </div>
           <div className="logo">
             <Link href="/">
-              <img src="assets/img/logo.png" alt="img" />
+              <img src="assets/img/logo.jpg" alt="img" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
