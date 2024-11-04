@@ -36,13 +36,13 @@ const page = () => {
       <ServiceAreaOne />
 
       {/* FAQ Area One */}
-      <FaqAreaOne />
+      {/* <FaqAreaOne /> */}
 
       {/* Case Study Area One */}
-      <CaseStudyAreaOne />
+      {/* <CaseStudyAreaOne /> */}
 
       {/* Team Area One */}
-      <TeamAreaOne />
+      {/* <TeamAreaOne /> */}
 
       {/* Counter Area One */}
       <CounterAreaOne />
@@ -51,13 +51,13 @@ const page = () => {
       <ContactAreaOne />
 
       {/* Work Process One */}
-      <WorkProcessOne />
+      {/* <WorkProcessOne /> */}
 
       {/* Pricing Area One */}
-      <PricingAreaOne />
+      {/* <PricingAreaOne /> */}
 
       {/* Blog Area One */}
-      <BlogAreaOne />
+      {/* <BlogAreaOne /> */}
 
       {/* Footer One */}
       <FooterOne />

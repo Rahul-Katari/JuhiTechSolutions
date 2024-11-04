@@ -17,7 +17,7 @@ const FooterOne = () => {
     <>
       {/* ================== Footer One Start ==================*/}
       <footer className="footer-area bg-black bg-cover">
-        <div className="footer-subscribe">
+        <div className="footer-subscribe d-none">
           <div className="container">
             <div
               className="footer-subscribe-inner bg-cover"
@@ -37,9 +37,9 @@ const FooterOne = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container pt-5">
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="widget widget_about">
                 {/* <div className="thumb">
                   <img src="assets/img/logo2.png" alt="img" />
@@ -93,7 +93,7 @@ const FooterOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="widget widget_nav_menu">
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
@@ -130,7 +130,7 @@ const FooterOne = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="widget widget_nav_menu">
                 <h4 className="widget-title">Pay links</h4>
                 <ul>
@@ -167,7 +167,7 @@ const FooterOne = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 d-none">
               <div className="widget widget-recent-post">
                 <h4 className="widget-title">Contact us</h4>
                 <ul>

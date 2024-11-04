@@ -4,7 +4,7 @@ const AboutAreaOne = () => {
   return (
     <>
       {/* ================== AboutAreaOne start  ==================*/}
-      <div className='about-area pd-top-120'>
+      <div className='about-area pd-top-120' id="about">
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
@@ -31,7 +31,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src='assets/img/about/32.png'
                   alt='img'
                 />
               </div>
@@ -45,12 +45,11 @@ const AboutAreaOne = () => {
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  It Is A Critical Component Of <span>Modern</span> Businesses
+                  JuhiTech Solutions - <br></br> your one-stop destination for all your IT needs!
+                  {/* It Is A Critical Component Of <span>Modern</span> Businesses */}
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  Our commitment to delivering exceptional consultancy services has resulted in a growing list of satisfied clients across various industries
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -59,10 +58,9 @@ const AboutAreaOne = () => {
                         <img src='assets/img/icon/2.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Our Vision</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          It is our vision to be recognized as one of the premier providers of ERP Consulting Services by delivering quality solutions to clients with our cost effective model.
                         </p>
                       </div>
                     </div>
@@ -73,10 +71,9 @@ const AboutAreaOne = () => {
                         <img src='assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Our Mission</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          To become a globally acclaimed Information Technology Services company by delivering exceptional IT Services in Endeavouring towards becoming an admired company.
                         </p>
                       </div>
                     </div>

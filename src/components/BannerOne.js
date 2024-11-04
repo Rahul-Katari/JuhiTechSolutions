@@ -30,7 +30,7 @@ const BannerOne = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  DESIGNING FOR THE FUTURE
+                  ERP Solutions
                 </h6>
                 <h2
                   className='title'
@@ -38,7 +38,8 @@ const BannerOne = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                  Making The <span>Digital</span> World Work For You
+                  Welcome to <span>JuhiTeCH</span> Solutions
+                  {/* Making The <span>Digital</span> World Work For You */}
                 </h2>
                 <p
                   className='content pe-xl-5'
@@ -46,19 +47,17 @@ const BannerOne = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  And In Order To Make A Business, Brand Advertising And
-                  Marketing Plays An Important Role. Similarly, In Making
-                  Cultivation Business Are Necessary.
+                  We are a leading IT services provider with a strong focus on quality, innovation, and client satisfaction. Our commitment to delivering exceptional consultancy services has resulted in a growing list of satisfied clients across various industries.
                 </p>
-                <Link
+                {/* <Link
                   className='btn btn-border-base'
                   data-aos='fade-right'
                   data-aos-delay='300'
                   data-aos-duration='1500'
-                  href='/about'
+                  href='#'
                 >
                   Discover More <FaPlus />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className='col-xl-4 col-lg-5 col-md-8 offset-xl-2 offset-lg-1'>
@@ -85,7 +84,7 @@ const BannerOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/banner/1.png'
+                  src='assets/img/banner/erp.webp'
                   alt='img'
                 />
               </div>

@@ -7,7 +7,7 @@ const ServiceAreaOne = () => {
   return (
     <>
       {/*=================== service area start ===================*/}
-      <div className='service-area bg-relative pd-top-100'>
+      <div className='service-area bg-relative pd-top-100' id="service">
         <img
           className='position-bottom-left top_image_bounce'
           src='assets/img/icon/4.png'

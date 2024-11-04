@@ -5,7 +5,7 @@ const ContactAreaOne = () => {
   return (
     <>
       {/* ========================= contact Area One start =========================*/}
-      <div className="contact-area">
+      <div className="contact-area" id='contact'>
         <div className="container">
           <div className="contact-inner-1">
             <img
@@ -25,7 +25,7 @@ const ContactAreaOne = () => {
                 data-aos-delay="200"
                 data-aos-duration="1500"
               >
-                <img className="w-100" src="assets/img/bg/4.png" alt="img" />
+                <img className="w-100 rounded bg-gray_2" src="assets/img/bg/contact.png" alt="img" />
               </div>
               <div
                 className="col-lg-4 wow animated fadeInRight"

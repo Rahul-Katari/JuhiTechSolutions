@@ -141,7 +141,11 @@ const NavBar = () => {
                 </ul> */}
               </li>
               <li className="menu-item-has-children">
-                <Link href="#">Service</Link>
+                <a href="#about">About</a>
+
+              </li>
+              <li className="menu-item-has-children">
+                <a href="#service">Service</a>
                 {/* <ul className="sub-menu">
                   <li>
                     <Link href="/service">Service 01</Link>
@@ -297,9 +301,9 @@ const NavBar = () => {
                 </div>
               </li> */}
 
-              <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                 <Link href="#">Blog</Link>
-                {/* <ul className="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -315,10 +319,10 @@ const NavBar = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul> */}
-              </li>
+                </ul>
+              </li> */}
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="#contact">Contact Us</Link>
               </li>
             </ul>
           </div>
