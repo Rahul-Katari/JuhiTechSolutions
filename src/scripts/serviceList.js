@@ -1,35 +1,34 @@
 let serviceList = [
   {
-    title: "Mobile App Development",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/1.png",
+    "title": "ERP Implementation",
+    "des": "Seamlessly integrate ERP solutions tailored to streamline processes, enhance productivity, and drive growth for your organization.",
+    "img": "assets/img/service-icon/implementation.png"
   },
   {
-    title: "Content Marketing",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/2.png",
+    "title": "ERP Support",
+    "des": "Expert support services to ensure your ERP system operates smoothly with minimal downtime and maximum efficiency.",
+    "img": "assets/img/service-icon/support.png"
   },
   {
-    title: "E-commerce Solutions",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/3.png",
+    "title": "Business Consulting",
+    "des": "Strategic insights and solutions to optimize business operations, helping you make informed decisions and achieve long-term success.",
+    "img": "assets/img/service-icon/consulting.png"
   },
   {
-    title: "Content Marketing",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/2.png",
+    "title": "ERP Upgrade & Migration",
+    "des": "Effortlessly transition to the latest ERP version or migrate your data with minimal disruption and enhanced functionality.",
+    "img": "assets/img/service-icon/upgrade.png"
   },
   {
-    title: "Mobile App Development",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/1.png",
+    "title": "ERP Custom Developments",
+    "des": "Tailor-made ERP developments to address specific needs, ensuring your system aligns perfectly with your business goals.",
+    "img": "assets/img/service-icon/custom.png"
   },
-
   {
-    title: "E-commerce Solutions",
-    des: "Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is",
-    img: "assets/img/service-icon/3.png",
-  },
+    "title": "Application Management Services",
+    "des": "Comprehensive management and monitoring to maintain your applications, optimizing performance and reducing maintenance costs.",
+    "img": "assets/img/service-icon/aps.png"
+  }
 ];
 
 export default serviceList;
